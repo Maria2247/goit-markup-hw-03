@@ -33,16 +33,23 @@ ul {
 
 /* -----HEADER------ */
 
-.header {
+.header-background {
   border-bottom: 1px solid #e7e9fc;
   width: 100%;
 }
 
-.header.container {
+.header {
   display: flex;
   align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 130px;
 }
 
 .header-logo {
@@ -60,20 +67,12 @@ ul {
   color: #2e2f42;
 }
 
-.nav-menu {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-right: 76px;
-}
-
 .nav-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .nav-item:hover,
@@ -321,7 +320,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 101.5px;
   display: inline-block;
   margin-bottom: 16px;
 }
