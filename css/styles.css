@@ -43,13 +43,9 @@ ul {
   align-items: center;
 }
 
-.nav-menu {
+.navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-right: 130px;
 }
 
 .header-logo {
@@ -67,12 +63,21 @@ ul {
   color: #2e2f42;
 }
 
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 332px;
+}
+
 .nav-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-item:hover,
