@@ -27,6 +27,8 @@ a {
 
 ul li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* -----HEADER------ */
@@ -178,7 +180,7 @@ ul li {
 }
 
 .features-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-name {
@@ -212,20 +214,19 @@ ul li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
   display: flex;
   gap: 24px;
-  margin-right: 156px;
-  margin-left: 156px;
 }
 
 .our-team-item {
   background-color: #ffffff;
   flex-direction: column;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .teammate {
@@ -334,4 +335,5 @@ ul li {
   line-height: 24px;
   /* 150% */
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
